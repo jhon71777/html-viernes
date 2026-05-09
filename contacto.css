@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbfbfb;
+}
+
+.login-container {
+    width: 350px;
+    margin: 80px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #1e90ff;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+button {
+    width: 95%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: rgb(229, 229, 229);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #10b9e3;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    /* Reemplaza 'tu-imagen.jpg' por la ruta de tu archivo */
+    background-image: url('https://cdn.prod.website-files.com/5ec85520c4dfff034b036be2/6499cfab126bf75320569b58_Fastest-Charging-EVs_main.webp');
+    background-size: cover;
+    /* Cubre toda la pantalla */
+    background-position: center;
+    /* Centra la imagen */
+    background-attachment: fixed;
+    /* La imagen no se mueve al hacer scroll */
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Ajusta a tu preferencia */
+    /* Centra el formulario en pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
